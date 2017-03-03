@@ -1,7 +1,8 @@
 portainer-agent
 ========
 
-A microservice that does micro things.
+This microservice watches Rancher metadata and sets up the endpoint config for Portainer.io.
+When hosts change in metadata, so will the config.
 
 ## Building
 
